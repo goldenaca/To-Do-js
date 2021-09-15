@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300;400&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">TO - DO</p>
+      <div>
+        <form class="head" action="">
+          <input
+            id="inputTask"
+            type="text"
+            class="input"
+            placeholder="Add new tasku!"
+          />
+          <button id="inputTaskButton" type="submit" class="addButton pointer">
+            Add
+          </button>
+        </form>
+      </div>
+      <div id="tasks"></div>
+      <div class="footer">
+        <p id="count" class="count">Contador: 0</p>
+        <button id="deleteButton" type="submit" class="deleteButton pointer">
+          Delete all tasks
+        </button>
+      </div>
+    </div>
+    <!-- scirpts -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
